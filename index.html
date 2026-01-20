@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <!-- a + enter = <a href=""></a> -->
+        <!-- &nbsp; = one space -->
+        <!-- style="color: (color); = change color of font -->
+        <font size="5">
+        <a href="index.html" style="color: red;">Home</a>
+        &nbsp; &nbsp; &nbsp;
+        <a href="Department.html" style="color: blue;">Department</a>
+        &nbsp; &nbsp; &nbsp;
+        <a href="About.html" style="color: green;">About</a>
+        &nbsp; &nbsp; &nbsp;
+        <a href="Contact.html" style="color: gold;">Contact us</a>
+        </font>
+    </nav>
+
+    <h1>This is the home page</h1>
+    <br>
+
+    <!-- Form -->
+    <!-- lable = name or title -->
+    <!-- input = box to input -->
+    <!-- type(type of data) placeholder(grey idea of data wanted) 
+    require(required to be filled) -->
+    <form>
+        <div>
+            <label for="user_username">Username : </label>
+            <input type="text" id="user_username" placeholder="example@email.com" required>
+        </div>
+        
+        <div>
+            <label for="user_password">Password :</label>
+            <input type="password" id="user_password" placeholder="password123" required>
+        </div>
+        <input type="submit" value="Login">
+        <input type="reset">
+
+    </form>
+
+</body>
+</html>
